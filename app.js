@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.listen(3000, () => {
+var port = process.env.PORT || 1337;
+app.listen(port, () => {
 	console.log('start server port:3000');
 });
