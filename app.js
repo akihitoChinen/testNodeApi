@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
 	console.log('send response');
 });
 
-app.listen(3000, () => {
-	console.log('start server port:3000');
+app.listen(80, () => {
+	console.log('start server port:80');
 });
